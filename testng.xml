@@ -1,0 +1,11 @@
+<suite name="Suite1" verbose="1">
+
+    <test name="all-tests">
+
+        <classes>
+            <class name="UI.OverallSanityCheck" />
+        </classes>
+
+    </test>
+
+</suite>
