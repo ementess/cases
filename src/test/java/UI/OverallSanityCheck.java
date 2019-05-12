@@ -21,7 +21,7 @@ public class OverallSanityCheck extends StepDefinitions
     }
 
     @Test
-    public void LogIn() {
+    public void SanityCheck() {
         WebDriverWait wait = new WebDriverWait(driver, 10);  // you can reuse this one
         driver.findElement(By.xpath("//span[.='Giriş Yap']")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
